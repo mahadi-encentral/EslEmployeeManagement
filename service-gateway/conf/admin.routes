@@ -1,0 +1,4 @@
+POST    /login                     controllers.AdminController.login()
+POST    /employee                  controllers.AdminController.addEmployee()
+POST    /employee/all              controllers.AdminController.getEmployees()
+POST    /employee/:id/attendance   controllers.AdminController.getEmployeeAttendance(id: String)
